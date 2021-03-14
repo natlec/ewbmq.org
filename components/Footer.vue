@@ -30,7 +30,7 @@
 
 <style>
 .c-footer {
-  font-size: 16px;
+  font-size: 1em;
   padding: 5vh 15vw 15vh;
   background: var(--color-light-gray);
 }

@@ -18,7 +18,7 @@ body {
   margin: 0;
   background: var(--color-background);
   line-height: 1.5;
-  font: 400 1em 'PT Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font: 400 1.2em 'PT Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--color-dark-gray);
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
@@ -33,9 +33,13 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-black);
 }
 h1 {
-  font-size: 32px;
+  font-size: 48px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
+p {
+  line-height: 1.5;
+}
+/* Font sizing: https://www.modularscale.com/?1&em&1.2 */
 </style>
