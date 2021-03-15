@@ -29,7 +29,7 @@ export default {
 .c-footer {
   font-size: 1em;
   padding: 5vh 15vw 25vh;
-  background: no-repeat bottom center/100% url('~/assets/ewb-footer-pattern.png'),
+  background: no-repeat bottom / 100vw url('~/assets/ewb-footer-pattern.png'),
               var(--color-light-gray);
   text-align: center;
 }

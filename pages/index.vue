@@ -2,7 +2,7 @@
   <main>
     <Splash />
     <Header />
-    <div class="content">
+    <div id="content" class="content">
       <section class="c-section">
         <VideoPlayer />
       </section>
