@@ -8,11 +8,12 @@
 
 <style>
 :root {
-    --color-black: #181818;
-    --color-dark-gray: #404040;
-    --color-light-gray: #F3F3F3;
-    --color-green: #00903D;
-    --color-background: #ffffff;
+  --color-black: #181818;
+  --color-dark-gray: #404040;
+  --color-light-gray: #F3F3F3;
+  --color-green: #00903D;
+  --color-yellow: #FFCC00;
+  --color-background: #ffffff;
 }
 body {
   margin: 0;
@@ -26,6 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Font sizing: https://www.modularscale.com/?1&em&1.2 */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 600;
@@ -41,5 +43,27 @@ h2 {
 p {
   line-height: 1.5;
 }
-/* Font sizing: https://www.modularscale.com/?1&em&1.2 */
+a {
+  font-weight: 600;
+  color: var(--color-green);
+  text-decoration-thickness: 2px;
+  text-decoration-color: currentColor;
+  outline: none;
+}
+a:focus {
+  text-decoration: none;
+  color: var(--color-black);
+  background: var(--color-yellow);
+  box-shadow: 0 -2px var(--color-yellow),
+              0 4px var(--color-black);
+}
+
+::-moz-selection {
+  color: var(--color-background);
+  background: var(--color-green);
+}
+::selection {
+  color: var(--color-background);
+  background: var(--color-green);
+}
 </style>

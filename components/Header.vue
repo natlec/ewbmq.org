@@ -24,17 +24,30 @@
   z-index: 9;
 }
 .c-nav-item {
-  padding: 32px;
+  padding: 24px 32px;
   color: var(--color-black);
   font: 600 18px 'Red Hat Display', sans-serif;
   text-decoration: none;
   vertical-align: middle;
+  border-radius: 16px;
+  border: 3px solid transparent;
+  transition: border-color .2s ease;
 }
 .c-nav-item:hover,
 .c-nav-item:focus {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: black;
+  text-decoration-color: var(--color-black);
+  border-color: var(--color-light-gray);
+}
+.c-nav-item:focus {
+  color: var(--color-black);
+  box-shadow: none;
+  background: var(--color-background);
+  text-decoration: none;
+  border-color: var(--color-black);
+  outline: none;
+  transition: none;
 }
 .c-nav-logo {
   vertical-align: middle;

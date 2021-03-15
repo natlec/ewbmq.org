@@ -46,7 +46,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-joseph.png">
-                <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Joseph Malicdem">
+                <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Joseph Malicdem via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -63,7 +63,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-bharosha.png">
-                <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bharosha Poudel">
+                <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bharosha Poudel via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -80,7 +80,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-abdullah.png">
-                <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Abdullah Abualsaud">
+                <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Abdullah Abualsaud via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -97,7 +97,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-bijoya.png">
-                <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bijoya Bakali">
+                <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bijoya Bakali via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -114,7 +114,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png">
-                <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Nathan Lecompte">
+                <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Nathan Lecompte via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -131,7 +131,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-shahariar.png">
-                <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Md Shahariar Mollah">
+                <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Md Shahariar Mollah via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -148,7 +148,7 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-jordan.png">
-                <a class="c-bubbles-item-overlay" href="mailto:jordan.cairns@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Jordan Cairns">
+                <a class="c-bubbles-item-overlay" href="mailto:jordan.cairns@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Jordan Cairns via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
@@ -183,34 +183,51 @@
             </p>
             <ul class="c-socials">
               <li class="c-socials-item">
-                <a href="https://www.instagram.com/ewbmacquarie" target="_blank" rel="noreferrer noopener" title="Instagram">
-                  <img src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="64">
+                <a class="c-socials-item-link" href="https://www.instagram.com/ewbmacquarie" target="_blank" rel="noreferrer noopener" title="Instagram">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="64">
+                  <span class="c-socials-item-label">
+                    Instagram
+                  </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a href="https://www.facebook.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Facebook">
-                  <img src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="64">
+                <a class="c-socials-item-link" href="https://www.facebook.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Facebook">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="64">
+                  <span class="c-socials-item-label">
+                    Facebook
+                  </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener" title="Discord">
-                  <img src="~/assets/icons/icon-discord.svg" alt="Discord" width="64">
+                <a class="c-socials-item-link" href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener" title="Discord">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="64">
+                  <span class="c-socials-item-label">
+                    Discord
+                  </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a href="https://www.twitter.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Twitter">
-                  <img src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="64">
+                <a class="c-socials-item-link" href="https://www.twitter.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Twitter">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="64">
+                  <span class="c-socials-item-label">
+                    Twitter
+                  </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Email">
-                  <img src="~/assets/icons/icon-email.svg" alt="Email" width="64">
+                <a class="c-socials-item-link" href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Email">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="64">
+                  <span class="c-socials-item-label">
+                    Email
+                  </span>
                 </a>
               </li>
             </ul>
           </div>
           <div class="c-section-double-right">
-            <Form />
+            <no-ssr>
+              <Form />
+            </no-ssr>
           </div>
         </div>
       </section>
@@ -239,25 +256,6 @@
             </p>
           </li>
         </ul>
-        <div class="c-cta">
-          <div class="c-cta-left">
-            <h3>
-              Monthly Newsletter
-            </h3>
-            <p>
-              Want the latest updates sent straight to your inbox?<br>
-              <strong>Sign-up for our monthly newsletter!</strong>
-            </p>
-          </div>
-          <div class="c-cta-right">
-            <div class="c-cta-form">
-              <!-- TODO: Add Hubspot form -->
-            </div>
-            <p>
-              Unsubscribe anytime. No spam, ever.
-            </p>
-          </div>
-        </div>
       </section>
 
       <section class="c-section">
@@ -405,6 +403,7 @@ hr {
 .c-bubbles-item-byline-title {
   display: block;
   font-size: 1.2em;
+  font-family: 'Red Hat Display';
   color: var(--color-black);
 }
 .c-bubbles-item-byline-subtitle {
@@ -431,42 +430,83 @@ hr {
   left: 0;
   bottom: 0;
   right: 0;
-  border: 6px solid transparent;
+  border: 4px solid transparent;
   border-radius: 100%;
+  font-family: 'Red Hat Display';
   font-weight: 600;
   line-height: 2;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--color-light-gray);
   opacity: 0;
   outline: none;
   transform: scale(1);
-  transition: opacity .2s ease;
+  transition: opacity .2s ease,
+              box-shadow .2s ease;
 }
-.c-bubbles-item:hover .c-bubbles-item-overlay,
-.c-bubbles-item-overlay:focus {
-  opacity: .95;
-}
-.c-bubbles-item-overlay:focus {
+.c-bubbles-item-overlay:hover {
   border-color: var(--color-black);
-  box-shadow: inset 0 0 0 4px var(--color-light-gray);
+  box-shadow: inset 0 0 0 4px var(--color-dark-gray);
+  opacity: 1;
+}
+.c-bubbles-item-overlay:focus {
+  text-decoration: none;
+  color: var(--color-light-gray);
+  background: var(--color-green);
+  border-color: var(--color-light-gray);
+  box-shadow: 0 0 0 4px var(--color-black);
+  opacity: 1;
 }
 .c-socials {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 32px 0 0;
   padding: 0;
 }
 .c-socials-item {
-  display: inline-block;
+  display: block;
+  margin: 24px 0;
+  flex: 0 0 50%;
+}
+.c-socials-item-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--color-black);
+}
+.c-socials-item-image {
+  display: block;
   position: relative;
-  margin: 16px;
   border-radius: 100%;
   width: 64px;
   height: 64px;
   background: var(--color-black);
-  border: 4px solid var(--color-black);
+  border: 3px solid var(--color-black);
   outline: none;
+  transition: box-shadow .2s ease;
 }
-.c-socials-item:focus-within {
+.c-socials-item-link:focus {
+  box-shadow: none;
+  background: var(--color-background);
+  color: var(--color-black);
+}
+.c-socials-item-link:hover .c-socials-item-image {
   border-color: var(--color-black);
-  box-shadow: inset 0 0 0 3px var(--color-light-gray);
+  box-shadow: inset 0 0 0 3px var(--color-dark-gray);
+}
+.c-socials-item-link:focus .c-socials-item-image {
+  background: var(--color-green);
+  border-color: var(--color-light-gray);
+  box-shadow: 0 0 0 4px var(--color-black);
+}
+.c-socials-item-label {
+  display: block;
+  margin: 16px;
+}
+.c-socials-item-link:focus .c-socials-item-label {
+  background: var(--color-yellow);
+  box-shadow: 0 -2px var(--color-yellow),
+              0 4px var(--color-black);
 }
 </style>

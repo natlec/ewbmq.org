@@ -15,6 +15,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { hid: 'stripe', src: 'https://js.hsforms.net/forms/v2.js', defer: false }
     ]
   },
 
@@ -47,5 +50,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    // eslint-disable-next-line no-empty-pattern
+    extend (config, {}) {
+      config.node = {
+        fs: 'empty'
+      }
+    }
   }
 }
