@@ -179,12 +179,12 @@
               We run a variety of social events, workshops and networking opportunities throughout the year available excusively to our members.
             </p>
             <p>
-              Tune into our social channels for further updates:
+              Tune into our social & comms channels for further updates:
             </p>
             <ul class="c-socials">
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://www.instagram.com/ewbmacquarie" target="_blank" rel="noreferrer noopener" title="Instagram">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="64">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="48">
                   <span class="c-socials-item-label">
                     Instagram
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -196,7 +196,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://www.facebook.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Facebook">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="64">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="48">
                   <span class="c-socials-item-label">
                     Facebook
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -208,7 +208,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener" title="Discord">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="64">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="48">
                   <span class="c-socials-item-label">
                     Discord
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -220,7 +220,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://www.twitter.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Twitter">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="64">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="48">
                   <span class="c-socials-item-label">
                     Twitter
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -232,7 +232,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Email">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="64">
+                  <img class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="48">
                   <span class="c-socials-item-label">
                     Email
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -252,7 +252,7 @@
         </div>
       </section>
 
-      <section class="c-section">
+      <section id="ops" class="c-section">
         <div class="c-section-double">
           <div class="c-section-double-left">
             <h2>
@@ -262,64 +262,61 @@
               We aim to be transparent about our internal operations and have built our portal to provide executives, members and curious minds alike with access to all of our internal documents, resources and more.
             </p>
             <div class="c-info">
-              Note: To respect the privacy of our members, personally-identifiable information on EWBMQ members (with the exception of members within the executive team) is not publicly accessible through any of the hosted content platforms we maintain.
+              <strong>Note:</strong> To respect the privacy of our members, personally-identifiable information on EWBMQ members (with the exception of members within the executive team) is not publicly accessible through any of the hosted content platforms we maintain.
             </div>
           </div>
           <div class="c-section-double-right">
-            <ul>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📰 Monthly Newsletter
+            <ul class="c-list">
+              <li class="c-list-item">
+                <a href="/constitution" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">📜</span> Constitution
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📜 Constitution
+              <li class="c-list-item">
+                <a href="/forms" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">📝</span> Forms
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📝 Forms
+              <li class="c-list-item">
+                <a href="/tasks" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">🔨</span> Tasks
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  🔨 Tasks
+              <li class="c-list-item">
+                <a href="/event-calendar" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">📅</span> Event Calendar
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📅 Calendar
+              <li class="c-list-item">
+                <a href="/event-plans" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">📐</span> Event Plans
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📢 General Committee
+            </ul>
+            <ul class="c-list">
+              <li class="c-list-item">
+                <a href="/general-committee" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">📢</span> General Committee
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  ✏️ Meeting Notes
+              <li class="c-list-item">
+                <a href="/meeting-notes" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">✏️</span> Meeting Notes
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📐 Event Plans
+              <li class="c-list-item">
+                <a href="/partners" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">🤝</span> Partner Program
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  🤝 Partner Program
+              <li class="c-list-item">
+                <a href="/resources" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">📎</span> Resources
                 </a>
               </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  📎 Resources
-                </a>
-              </li>
-              <li>
-                <a href="" rel="noreferrer noopener">
-                  💰 Finances
+              <li class="c-list-item">
+                <a href="/finances" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">💰</span> Finances
                 </a>
               </li>
             </ul>
@@ -474,8 +471,8 @@ hr {
   display: block;
   position: relative;
   border-radius: 100%;
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   background: var(--color-black);
   border: 3px solid var(--color-black);
   outline: none;
@@ -508,5 +505,30 @@ hr {
   background: var(--color-yellow);
   box-shadow: 0 -2px var(--color-yellow),
               0 4px var(--color-black);
+}
+.c-list {
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 16px 0;
+  max-height: 300px;
+}
+.c-list-item {
+  margin: 16px 0;
+}
+.c-list-item-icon {
+  display: inline-block;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  width: 24px;
+  margin-right: 8px;
+}
+.c-info {
+  border-radius: 16px;
+  border: 2px solid var(--color-light-gray);
+  padding: 32px;
+  margin: 32px 0 0;
 }
 </style>
