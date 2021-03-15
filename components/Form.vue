@@ -17,15 +17,13 @@ export default {
       isFormLoaded: false
     }
   },
-  created () {
+  mounted () {
     this.HubSpot.forms.create({
       portalId: '9223100',
       formId: 'e8ab8e7f-6fbc-47aa-a6ee-e37867427d95',
       target: '.c-form',
       onFormReady: form => this.initHubSpotFormStyle(form)
     })
-  },
-  mounted () {
     this.isFormLoaded = true
   },
   methods: {
