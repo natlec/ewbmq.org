@@ -17,7 +17,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { hid: 'stripe', src: 'https://js.hsforms.net/forms/v2.js', defer: false }
+      { hid: 'stripe', src: 'https://js.hsforms.net/forms/v2.js', defer: true }
     ]
   },
 

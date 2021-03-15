@@ -46,8 +46,7 @@ p {
 a {
   font-weight: 600;
   color: var(--color-green);
-  text-decoration-thickness: 2px;
-  text-decoration-color: currentColor;
+  text-decoration: underline currentColor 2px;
   outline: none;
 }
 a:focus {
@@ -65,5 +64,12 @@ a:focus {
 ::selection {
   color: var(--color-background);
   background: var(--color-green);
+}
+
+.svg-icon {
+  display: inline-block;
+  fill: currentColor;
+  margin: 0 0 3px;
+  vertical-align: middle;
 }
 </style>

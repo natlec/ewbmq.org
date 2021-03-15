@@ -187,6 +187,10 @@
                   <img class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="64">
                   <span class="c-socials-item-label">
                     Instagram
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
+                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
+                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
+                    </svg>
                   </span>
                 </a>
               </li>
@@ -195,6 +199,10 @@
                   <img class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="64">
                   <span class="c-socials-item-label">
                     Facebook
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
+                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
+                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
+                    </svg>
                   </span>
                 </a>
               </li>
@@ -203,6 +211,10 @@
                   <img class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="64">
                   <span class="c-socials-item-label">
                     Discord
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
+                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
+                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
+                    </svg>
                   </span>
                 </a>
               </li>
@@ -211,6 +223,10 @@
                   <img class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="64">
                   <span class="c-socials-item-label">
                     Twitter
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
+                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
+                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
+                    </svg>
                   </span>
                 </a>
               </li>
@@ -219,6 +235,10 @@
                   <img class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="64">
                   <span class="c-socials-item-label">
                     Email
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
+                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
+                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
+                    </svg>
                   </span>
                 </a>
               </li>
@@ -230,32 +250,6 @@
             </no-ssr>
           </div>
         </div>
-      </section>
-
-      <section id="news" class="c-section">
-        <h2>
-          Latest News
-        </h2>
-        <ul class="c-news">
-          <li class="c-news-item">
-            <!-- <img src="~/assets/news/news-general-committee.png" alt="General Committee news banner"> -->
-            <p>
-              Interested in getting involved in helping run our internal operations and gain valuable experience working with a team of like-minded individuals? Consider joining our General Committee as a general member or director!
-            </p>
-          </li>
-          <li class="c-news-item">
-            <!-- <img src="~/assets/news/news-o-week.png" alt="O-Week news banner"> -->
-            <p>
-              It's that time of year again, O-Week is nearly here! Get ready to hear about EWBMQ in detail and ask all of your burning questions in our virtual Digital nEWBie sessions run throughout O-Week!
-            </p>
-          </li>
-          <li class="c-news-item">
-            <!-- <img src="~/assets/news/news-affiliation.png" alt="Affiliation news banner"> -->
-            <p>
-              We have some exciting news to share with you all, EWBMQ is now officially an affiliated society at Macquarie University! For those participating in the GLP, a majority of EWBMQ opportunities are now eligible for GLP credit points!
-            </p>
-          </li>
-        </ul>
       </section>
 
       <section class="c-section">
@@ -474,6 +468,7 @@ hr {
   flex-direction: row;
   align-items: center;
   color: var(--color-black);
+  text-decoration: none;
 }
 .c-socials-item-image {
   display: block;
@@ -503,8 +498,13 @@ hr {
 .c-socials-item-label {
   display: block;
   margin: 16px;
+  font-family: 'Red Hat Display';
+}
+.c-socials-item-link:hover .c-socials-item-label {
+  text-decoration: underline 2px;
 }
 .c-socials-item-link:focus .c-socials-item-label {
+  text-decoration: none;
   background: var(--color-yellow);
   box-shadow: 0 -2px var(--color-yellow),
               0 4px var(--color-black);
