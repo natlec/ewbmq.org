@@ -328,7 +328,7 @@
   </main>
 </template>
 
-<style>
+<style scoped>
 hr {
   border: 1px solid var(--color-light-gray);
 }

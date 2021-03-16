@@ -25,13 +25,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .c-footer {
   font-size: 1em;
   padding: 5vh 15vw 25vh;
   background: no-repeat bottom / 100vw url('~/assets/ewb-footer-pattern.png'),
               var(--color-light-gray);
   text-align: center;
+  border-top: 2px solid rgba(24, 24, 24, 0.025);
 }
 .c-footer-aoc {
   display: inline-block;

@@ -122,7 +122,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .c-form {
   margin: 100px 0 0;
   outline: none;

@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .c-splash {
   background: no-repeat top / 100vw url('~/assets/ewb-triangle-pattern-gray.png'),
               no-repeat bottom / 100vw url('~/assets/ewb-triangle-pattern.png'),
@@ -31,6 +31,14 @@
   text-decoration: none;
   color: var(--color-dark-gray);
   font-family: 'Red Hat Display';
+}
+.c-splash-skip-link:hover {
+  color: var(--color-light-gray);
+  text-decoration: underline 2px currentColor;
+}
+.c-splash-skip-link:focus {
+  text-decoration: none;
+  color: var(--color-black);
 }
 .c-splash-globe {
   display: block;

@@ -16,7 +16,7 @@
   </header>
 </template>
 
-<style>
+<style scoped>
 .c-header {
   position: sticky;
   display: flex;
