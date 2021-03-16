@@ -245,9 +245,9 @@
             </ul>
           </div>
           <div class="c-section-double-right">
-            <no-ssr>
+            <client-only>
               <Form />
-            </no-ssr>
+            </client-only>
           </div>
         </div>
       </section>
@@ -327,6 +327,18 @@
     <Footer />
   </main>
 </template>
+
+<script>
+export default {
+  components: {
+    Form: () => {
+      if (process.client) {
+        return import('../components/Form.vue')
+      }
+    }
+  }
+}
+</script>
 
 <style scoped>
 hr {

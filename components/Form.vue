@@ -7,8 +7,6 @@
 
 <script>
 import '~/assets/jqueryShim.js'
-import Vue from 'vue'
-Vue.prototype.HubSpot = window.hbspt
 
 export default {
   name: 'Form',
@@ -18,15 +16,18 @@ export default {
     }
   },
   mounted () {
-    this.HubSpot.forms.create({
-      portalId: '9223100',
-      formId: 'e8ab8e7f-6fbc-47aa-a6ee-e37867427d95',
-      target: '.c-form',
-      onFormReady: form => this.initHubSpotFormStyle(form)
-    })
-    this.isFormLoaded = true
+    this.initHubSpotForm()
   },
   methods: {
+    initHubSpotForm () {
+      window.hbspt.forms.create({
+        portalId: '9223100',
+        formId: 'e8ab8e7f-6fbc-47aa-a6ee-e37867427d95',
+        target: '.c-form',
+        onFormReady: form => this.initHubSpotFormStyle(form)
+      })
+      this.isFormLoaded = true
+    },
     initHubSpotFormStyle (form) {
       // Inject custom styling for HubSpot Form (forgive me)
       const customStyle = document.createElement('style')
