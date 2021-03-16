@@ -268,54 +268,54 @@
           <div class="c-section-double-right">
             <ul class="c-list">
               <li class="c-list-item">
-                <a href="/constitution" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/constitution" rel="noreferrer noopener">
                   <span class="c-list-item-icon">📜</span> Constitution
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/forms" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/forms" rel="noreferrer noopener">
                   <span class="c-list-item-icon">📝</span> Forms
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/tasks" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/tasks" rel="noreferrer noopener">
                   <span class="c-list-item-icon">🔨</span> Tasks
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/event-calendar" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/event-calendar" rel="noreferrer noopener">
                   <span class="c-list-item-icon">📅</span> Event Calendar
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/event-plans" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/event-plans" rel="noreferrer noopener">
                   <span class="c-list-item-icon">📐</span> Event Plans
                 </a>
               </li>
             </ul>
             <ul class="c-list">
               <li class="c-list-item">
-                <a href="/general-committee" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/general-committee" rel="noreferrer noopener">
                   <span class="c-list-item-icon">📢</span> General Committee
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/meeting-notes" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/meeting-notes" rel="noreferrer noopener">
                   <span class="c-list-item-icon">✏️</span> Meeting Notes
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/partners" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/partners" rel="noreferrer noopener">
                   <span class="c-list-item-icon">🤝</span> Partner Program
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/resources" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/resources" rel="noreferrer noopener">
                   <span class="c-list-item-icon">📎</span> Resources
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="/finances" rel="noreferrer noopener">
+                <a href="https://ewbmq.org/finances" rel="noreferrer noopener">
                   <span class="c-list-item-icon">💰</span> Finances
                 </a>
               </li>
