@@ -331,7 +331,7 @@
 <script>
 export default {
   components: {
-    Form: () => process.client ? import('~/components/Form.vue') : null
+    Form: () => process.client ? import('~/lazy-components/Form.vue') : null
   }
 }
 </script>
