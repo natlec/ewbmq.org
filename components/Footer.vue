@@ -2,7 +2,7 @@
   <footer class="c-footer">
     <div class="c-footer-aoc">
       <p>
-        EWBMQ respectfully acknowledges the Traditional Owners of the Country on which we work.
+        EWBMQ respectfully acknowledges the traditional owners of the country on which we work.
       </p>
       <img src="~/assets/flag-aboriginal.svg" alt="Aboriginal Flag" height="24">
       <img src="~/assets/flag-torres-strait-islander.svg" alt="Torres Strait Islander Flag" height="24">
