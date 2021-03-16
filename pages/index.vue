@@ -331,11 +331,7 @@
 <script>
 export default {
   components: {
-    Form: () => {
-      if (process.client) {
-        return import('../components/Form.vue')
-      }
-    }
+    Form: () => process.client ? import('~/components/Form.vue') : null
   }
 }
 </script>
