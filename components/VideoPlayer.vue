@@ -1,23 +1,13 @@
 <template>
   <div class="c-video">
     <vue-plyr>
-      <video
-        controls
-        crossorigin
-        playsinline
-        :data-poster="require(`~/assets/video-thumb.png`)"
-      >
-        <source
-          size="720"
-          :src="require('~/assets/video-720p.mp4')"
-          type="video/mp4"
-        >
-        <source
-          size="1080"
-          :src="require('~/assets/video-1080p.mp4')"
-          type="video/mp4"
-        >
-      </video>
+      <div class="plyr__video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/zNoDtJ5USHo?iv_load_policy=3&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"
+          allowfullscreen
+          allowtransparency
+        ></iframe>
+      </div>
     </vue-plyr>
   </div>
 </template>
