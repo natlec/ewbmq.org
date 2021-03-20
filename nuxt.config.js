@@ -1,4 +1,6 @@
 export default {
+  ssr: false,
+  analyze: true,
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 

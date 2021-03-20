@@ -50,7 +50,7 @@
           <ul class="c-bubbles-list">
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-joseph.png" alt="Headshot for Joseph Malicdem">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-joseph.png" alt="Headshot for Joseph Malicdem">
                 <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Joseph Malicdem via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
@@ -67,7 +67,7 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-bharosha.png" alt="Headshot for Bharosha Poudel">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-bharosha.png" alt="Headshot for Bharosha Poudel">
                 <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bharosha Poudel via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
@@ -84,7 +84,7 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-abdullah.png" alt="Headshot for Abdullah Abualsaud">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-abdullah.png" alt="Headshot for Abdullah Abualsaud">
                 <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Abdullah Abualsaud via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
@@ -101,7 +101,7 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-bijoya.png" alt="Headshot for Bijoya Bakali">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-bijoya.png" alt="Headshot for Bijoya Bakali">
                 <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bijoya Bakali via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
@@ -118,7 +118,7 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
                 <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Nathan Lecompte via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
@@ -135,7 +135,7 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-shahariar.png" alt="Headshot for Md Shahariar Mollah">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-shahariar.png" alt="Headshot for Md Shahariar Mollah">
                 <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Md Shahariar Mollah via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
@@ -152,7 +152,7 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img class="c-bubbles-item-image" src="~/assets/headshots/headshot-jordan.png" alt="Headshot for Jordan Cairns">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-jordan.png" alt="Headshot for Jordan Cairns">
                 <a class="c-bubbles-item-overlay" href="mailto:jordan.cairns@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Jordan Cairns via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
