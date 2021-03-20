@@ -1,7 +1,5 @@
 <template>
   <div>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-red-hat-display@1.1.13/index.css" integrity="sha256-ufSNTM2+CubHCwLVvF5pW782ilMbGqkDF1WsaV3Td0s=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-pt-serif@1.1.13/index.css" integrity="sha256-4WeerH+X1JEs+stpOplYmRe3xcPyuex8fmJxq9lOi18=" crossorigin="anonymous">
     <Nuxt />
   </div>
 </template>

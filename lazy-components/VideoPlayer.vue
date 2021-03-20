@@ -3,6 +3,7 @@
     <vue-plyr>
       <div class="plyr__video-embed" tabindex="-1">
         <iframe
+          title="Introduction video for Engineers Without Borders Australia"
           src="https://www.youtube-nocookie.com/embed/zNoDtJ5USHo?amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
           allowfullscreen
           allowtransparency
@@ -31,7 +32,7 @@ export default {
   z-index: 1;
 }
 .plyr {
-  --plyr-video-background: var(--color-background);
+  --plyr-video-background: var(--color-black);
   --plyr-font-family: 'Red Hat Display';
   --plyr-font-weight-regular: 600;
   --plyr-color-main: var(--color-green);
@@ -95,10 +96,10 @@ export default {
 
 /* Weird hack to fix YouTube embeds (Google's fault) */
 .plyr iframe {
-  transition: .3s filter ease;
+  transition: .2s opacity ease;
 }
 .plyr.plyr--paused iframe {
-  filter: blur(64px);
+  opacity: 0;
 }
 
 .plyr {

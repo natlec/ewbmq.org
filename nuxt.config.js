@@ -4,17 +4,29 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'EWBMQ',
+    title: 'EWBMQ — Engineers Without Borders Macquarie University',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.' }
+      { hid: 'description', name: 'description', content: 'We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'EWBMQ — Engineers Without Borders Macquarie University' },
+      { hid: 'twitter:description', name: 'twitter:description', content: 'We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.' },
+      { hid: 'twitter:image', name: 'twitter:image', content: '/social.png' },
+      { hid: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'EWBMQ — Engineers Without Borders Macquarie University' },
+      { hid: 'og:description', name: 'og:description', content: 'We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.' },
+      { hid: 'og:image', name: 'og:image', content: '/social.png' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/typeface-red-hat-display@1.1.13/index.css', integrity: 'sha256-ufSNTM2+CubHCwLVvF5pW782ilMbGqkDF1WsaV3Td0s=', crossorigin: 'anonymous' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/typeface-pt-serif@1.1.13/index.css', integrity: 'sha256-4WeerH+X1JEs+stpOplYmRe3xcPyuex8fmJxq9lOi18=', crossorigin: 'anonymous' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/ewb-favicon-16x16.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/ewb-favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '64x64', href: '/ewb-favicon-64x64.png' }
     ],
     script: [
       { hid: 'hubspot', src: 'https://js.hsforms.net/forms/v2.js', defer: true }
@@ -41,9 +53,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/redirect-module'
+    '@nuxtjs/redirect-module',
+    '@nuxtjs/robots'
   ],
 
   redirect: [
@@ -59,6 +71,10 @@ export default {
     { from: '^/join/general-committee', to: 'https://www.notion.so/dc92b8ff62ed489c8220f0951dc4184d', statusCode: 301 },
     { from: '^/finances', to: 'https://www.notion.so/275edb03d1694648bae8d3f94d673a75', statusCode: 301 }
   ],
+
+  robots: {
+    UserAgent: '*'
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
