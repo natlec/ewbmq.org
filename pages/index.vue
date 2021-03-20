@@ -547,10 +547,7 @@ hr {
 }
 @media (max-width: 1024px) {
   .c-section {
-    margin: 10vh 32px;
-  }
-  .content .c-section:first-child {
-    display: none;
+    margin: 32px;
   }
   .c-section-double {
     flex-direction: column;
