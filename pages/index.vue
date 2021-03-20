@@ -1,10 +1,14 @@
 <template>
   <main>
     <Splash />
-    <Header />
+    <client-only>
+      <Header />
+    </client-only>
     <div id="content" class="content">
       <section class="c-section">
-        <VideoPlayer />
+        <client-only>
+          <VideoPlayer />
+        </client-only>
       </section>
 
       <section id="about" class="c-section">
@@ -331,7 +335,9 @@
 <script>
 export default {
   components: {
-    Form: () => process.client ? import('~/lazy-components/Form.vue') : null
+    Header: () => process.client ? import('~/lazy-components/Header.vue') : null,
+    Form: () => process.client ? import('~/lazy-components/Form.vue') : null,
+    VideoPlayer: () => process.client ? import('~/lazy-components/VideoPlayer.vue') : null
   }
 }
 </script>

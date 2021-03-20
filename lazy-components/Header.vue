@@ -1,5 +1,10 @@
 <template>
-  <header class="c-header">
+  <header
+    ref="header"
+    data-headroom
+    data-tolerance="5"
+    class="c-header"
+  >
     <nav class="c-nav">
       <a class="c-nav-item" href="#about">About</a>
       <a class="c-nav-item" href="#members">Members</a>
@@ -16,7 +21,34 @@
   </header>
 </template>
 
-<style scoped>
+<script>
+import Headroom from 'headroom.js'
+
+export default {
+  data () {
+    return {
+      headroom: {}
+    }
+  },
+  mounted () {
+    this.headroom = new Headroom(this.$refs.header, {
+      offset: (window.innerHeight + (window.innerHeight * 0.5)),
+      tolerance: {
+        up: 30,
+        down: 0
+      },
+      classes: {
+        initial: 'animated',
+        pinned: 'slideDown',
+        unpinned: 'slideUp'
+      }
+    })
+    this.headroom.init()
+  }
+}
+</script>
+
+<style>
 .c-header {
   position: sticky;
   display: flex;
@@ -58,5 +90,33 @@
 .c-nav-logo {
   vertical-align: middle;
   margin: 0 32px;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.slideDown {
+  transform: translateY(0);
+}
+.animated.slideDown {
+  animation: slideDown .4s ease;
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.slideUp {
+  transform: translateY(-100%);
+}
+.animated.slideUp {
+  animation: slideUp .4s ease;
 }
 </style>

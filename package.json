@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxt/content": "^1.11.1",
     "core-js": "^3.8.3",
+    "headroom.js": "^0.12.0",
     "nuxt": "^2.14.12",
     "vue-plyr": "^7.0.0"
   },
