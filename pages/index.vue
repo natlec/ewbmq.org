@@ -189,7 +189,7 @@
             <ul class="c-socials">
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://www.instagram.com/ewbmacquarie" target="_blank" rel="noreferrer noopener" title="Instagram">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="48">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="48">
                   <span class="c-socials-item-label">
                     Instagram
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -201,7 +201,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://www.facebook.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Facebook">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="48">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="48">
                   <span class="c-socials-item-label">
                     Facebook
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -213,7 +213,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener" title="Discord">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="48">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="48">
                   <span class="c-socials-item-label">
                     Discord
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -225,7 +225,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="https://www.twitter.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Twitter">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="48">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="48">
                   <span class="c-socials-item-label">
                     Twitter
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
@@ -237,7 +237,7 @@
               </li>
               <li class="c-socials-item">
                 <a class="c-socials-item-link" href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Email">
-                  <img class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="48">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="48">
                   <span class="c-socials-item-label">
                     Email
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
