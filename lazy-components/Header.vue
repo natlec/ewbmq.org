@@ -32,7 +32,7 @@ export default {
   },
   mounted () {
     this.headroom = new Headroom(this.$refs.header, {
-      offset: (window.innerHeight + (window.innerHeight * 0.5)),
+      offset: (window.innerHeight + (window.innerHeight * 0.5) + 50),
       tolerance: {
         up: 30,
         down: 0
@@ -103,7 +103,7 @@ export default {
   transform: translateY(0);
 }
 .animated.slideDown {
-  animation: slideDown .4s ease;
+  animation: slideDown .2s ease;
 }
 @keyframes slideUp {
   0% {
@@ -117,6 +117,6 @@ export default {
   transform: translateY(-100%);
 }
 .animated.slideUp {
-  animation: slideUp .4s ease;
+  animation: slideUp .2s ease;
 }
 </style>
