@@ -1,7 +1,7 @@
 <template>
   <div class="c-video">
     <vue-plyr>
-      <div class="plyr__video-embed">
+      <div class="plyr__video-embed" tabindex="-1">
         <iframe
           src="https://www.youtube-nocookie.com/embed/zNoDtJ5USHo?amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
           allowfullscreen
@@ -92,6 +92,15 @@ export default {
     opacity: 1;
   }
 }
+
+/* Weird hack to fix YouTube embeds (Google's fault) */
+.plyr iframe {
+  transition: .3s filter ease;
+}
+.plyr.plyr--paused iframe {
+  filter: blur(64px);
+}
+
 .plyr {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
