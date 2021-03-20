@@ -8,7 +8,7 @@
     <nav class="c-nav">
       <a class="c-nav-item" href="#about">About</a>
       <a class="c-nav-item" href="#members">Members</a>
-      <img class="c-nav-logo" src="~/assets/ewbmq-logo.svg" height="50">
+      <img class="c-nav-logo" src="~/assets/ewbmq-logo.svg" alt="EWBMQ" height="50">
       <a class="c-nav-item" href="#ops">Operations</a>
       <a class="c-nav-item" href="https://ewb.org.au" target="_blank" rel="noopener noreferrer">
         EWB
