@@ -17,7 +17,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { hid: 'stripe', src: 'https://js.hsforms.net/forms/v2.js', defer: true }
+      { hid: 'hubspot', src: 'https://js.hsforms.net/forms/v2.js', defer: true }
     ]
   },
 
@@ -42,7 +42,22 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/redirect-module'
+  ],
+
+  redirect: [
+    { from: '^/join', to: '/', statusCode: 301 },
+    { from: '^/meeting-notes', to: 'https://www.notion.so/e79473a92ddf4afd8b2c2b805b0c7bdd', statusCode: 301 },
+    { from: '^/event-calendar', to: 'https://www.notion.so/b8fac119248948b08fd011f0712a7829', statusCode: 301 },
+    { from: '^/constitution', to: 'https://www.notion.so/Constitution-f9de2fec67544fce99c8dcb78f80f773', statusCode: 301 },
+    { from: '^/forms', to: 'https://www.notion.so/a2f39258457d4bdca30d594912d39c28', statusCode: 301 },
+    { from: '^/tasks', to: 'https://www.notion.so/58f48d6e6afa4b85bb54035aa8f3c5f7', statusCode: 301 },
+    { from: '^/general-committee', to: 'https://www.notion.so/General-Committee-12bd15c9cc5a47d2b9d88611108c2d80', statusCode: 301 },
+    { from: '^/event-plans', to: 'https://www.notion.so/2282ba7f33d743c0856a72f72cce3df1', statusCode: 301 },
+    { from: '^/resources', to: 'https://www.notion.so/acd62c7881c14d7ab55c2f5941562a69', statusCode: 301 },
+    { from: '^/join/general-committee', to: 'https://www.notion.so/dc92b8ff62ed489c8220f0951dc4184d', statusCode: 301 },
+    { from: '^/finances', to: 'https://www.notion.so/275edb03d1694648bae8d3f94d673a75', statusCode: 301 }
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
