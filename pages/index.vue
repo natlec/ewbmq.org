@@ -549,6 +549,9 @@ hr {
   .c-section {
     margin: 10vh 32px;
   }
+  .content .c-section:first-child {
+    display: none;
+  }
   .c-section-double {
     flex-direction: column;
   }
@@ -565,13 +568,9 @@ hr {
   .c-bubbles-item {
     margin: 32px;
   }
-  .c-socials {
-    justify-content: center;
-  }
   .c-socials-item {
     margin: 24px;
     flex: 0 0 auto;
-    min-width: 200px;
   }
   .c-list {
     display: block;
