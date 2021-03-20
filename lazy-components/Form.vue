@@ -72,6 +72,7 @@ export default {
         .hbspt-form .hs-input[type=text],
         .hbspt-form .hs-input[type=email],
         .hbspt-form select.hs-input {
+          appearance: none !important;
           padding: 8px !important;
           color: #404040 !important;
           font: 400 1.2em 'PT Serif' !important;

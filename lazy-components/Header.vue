@@ -32,7 +32,7 @@ export default {
   },
   mounted () {
     this.headroom = new Headroom(this.$refs.header, {
-      offset: (window.innerHeight + (window.innerHeight * 0.5) + 50),
+      offset: (window.innerHeight + (window.innerHeight * 0.5)),
       tolerance: {
         up: 30,
         down: 0
@@ -54,6 +54,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   top: 0;
   height: 125px;
   background: var(--color-background);
@@ -94,30 +95,38 @@ export default {
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 .slideDown {
+  transform-origin: bottom;
   transform: translateY(0);
+  opacity: 1;
 }
 .animated.slideDown {
-  animation: slideDown .2s ease;
+  animation: slideDown .3s ease;
 }
 @keyframes slideUp {
   0% {
     transform: translateY(0);
+    opacity: 1;
   }
   100% {
     transform: translateY(-100%);
+    opacity: 0;
   }
 }
 .slideUp {
+  transform-origin: bottom;
   transform: translateY(-100%);
+  opacity: 0;
 }
 .animated.slideUp {
-  animation: slideUp .2s ease;
+  animation: slideUp .3s ease;
 }
 @media (max-width: 1024px) {
   .c-nav-item {

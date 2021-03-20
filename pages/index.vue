@@ -1,11 +1,12 @@
 <template>
   <main>
     <Splash />
-    <client-only>
-      <Header />
-    </client-only>
     <div id="content" class="content">
-      <section class="c-section">
+      <client-only>
+        <Header />
+      </client-only>
+
+      <section class="c-section c-section--first">
         <client-only>
           <VideoPlayer />
         </client-only>
@@ -346,11 +347,16 @@ export default {
 hr {
   border: 1px solid var(--color-light-gray);
 }
-.content .c-section:first-child {
-  margin-top: 64px;
+.content {
+  position: relative;
+  background: no-repeat top / 100vw url('~/assets/ewb-triangle-pattern-light.png');
+  z-index: 2;
 }
 .c-section {
   margin: 15vh 15vw;
+}
+.c-section--first {
+  margin-top: 64px;
 }
 .c-section-double {
   display: flex;
@@ -548,6 +554,9 @@ hr {
 @media (max-width: 1024px) {
   .c-section {
     margin: 32px;
+  }
+  .c-section--first {
+    margin-top: 32px;
   }
   .c-section-double {
     flex-direction: column;

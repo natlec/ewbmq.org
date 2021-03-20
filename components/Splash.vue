@@ -12,18 +12,20 @@
 
 <style scoped>
 .c-splash {
+  position: relative;
   background: no-repeat top / 100vw url('~/assets/ewb-triangle-pattern-gray.png'),
               no-repeat bottom / 100vw url('~/assets/ewb-triangle-pattern.png'),
               var(--color-black);
   height: 125vh;
   padding-bottom: 25vh;
+  z-index: 3;
 }
 .c-splash-skip {
   display: block;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-  bottom: 50px;
+  bottom: calc(50vh + 50px);
   padding: 0 0 48px;
   background: no-repeat bottom / 48px url('~/assets/icons/icon-skip.svg');
 }
@@ -44,7 +46,7 @@
   display: block;
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
-  top: 50%;
+  top: 50vh;
   left: 50%;
   width: 25vw;
   height: auto;
@@ -53,7 +55,7 @@
   display: block;
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
-  top: 50%;
+  top: 50vh;
   left: 50%;
   width: 37.5vw;
   height: auto;
