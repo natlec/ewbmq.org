@@ -58,4 +58,12 @@
   width: 37.5vw;
   height: auto;
 }
+@media (max-width: 1024px) {
+  .c-splash-globe {
+    width: 50vw;
+  }
+  .c-splash-letters {
+    width: 75vw;
+  }
+}
 </style>

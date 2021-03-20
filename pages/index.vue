@@ -14,6 +14,17 @@
       <section id="about" class="c-section">
         <div class="c-section-double">
           <div class="c-section-double-left">
+            <h2>
+              About EWBMQ
+            </h2>
+            <p>
+              We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.
+            </p>
+            <p>
+              Through partnerships and collaboration, EWB has focused on developing skills, knowledge and creating engineering solutions since 2003; which is now geared to launch at Macquarie University through the engagement of students expanding the dimensions of experience.
+            </p>
+          </div>
+          <div class="c-section-double-right">
             <div class="c-highlight">
               <strong class="c-highlight-title">
                 Our Vision:
@@ -31,17 +42,6 @@
                 Redefining the purpose and impact of engineering as a critical enabler of sustainable development.
               </mark>
             </div>
-          </div>
-          <div class="c-section-double-right">
-            <h2>
-              About EWBMQ
-            </h2>
-            <p>
-              We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.
-            </p>
-            <p>
-              Through partnerships and collaboration, EWB has focused on developing skills, knowledge and creating engineering solutions since 2003; which is now geared to launch at Macquarie University through the engagement of students expanding the dimensions of experience.
-            </p>
           </div>
         </div>
 
@@ -544,5 +544,38 @@ hr {
   border: 2px solid var(--color-light-gray);
   padding: 32px;
   margin: 32px 0 0;
+}
+@media (max-width: 1024px) {
+  .c-section {
+    margin: 10vh 32px;
+  }
+  .c-section-double {
+    flex-direction: column;
+  }
+  .c-section-double-left,
+  .c-section-double-right {
+    margin: 0;
+  }
+  .c-highlight {
+    padding: 32px;
+  }
+  .c-bubbles {
+    margin: 0;
+  }
+  .c-bubbles-item {
+    margin: 32px;
+  }
+  .c-socials {
+    justify-content: center;
+  }
+  .c-socials-item {
+    margin: 24px;
+    flex: 0 0 auto;
+    min-width: 200px;
+  }
+  .c-list {
+    display: block;
+    margin: 32px;
+  }
 }
 </style>

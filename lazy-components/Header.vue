@@ -119,4 +119,9 @@ export default {
 .animated.slideUp {
   animation: slideUp .2s ease;
 }
+@media (max-width: 1024px) {
+  .c-nav-item {
+    display: none;
+  }
+}
 </style>
