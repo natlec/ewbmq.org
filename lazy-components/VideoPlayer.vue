@@ -1,9 +1,10 @@
 <template>
   <div class="c-video">
     <vue-plyr :options="options">
-      <div class="plyr__video-embed" tabindex="-1">
+      <div class="plyr__video-embed">
         <!-- eslint-disable-next-line vue/html-self-closing -->
         <iframe
+          tabindex="-1"
           loading="lazy"
           title="Introduction video for Engineers Without Borders Australia"
           src="https://www.youtube.com/embed/zNoDtJ5USHo?amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
