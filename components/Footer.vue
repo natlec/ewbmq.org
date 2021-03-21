@@ -2,16 +2,37 @@
   <footer class="c-footer">
     <div class="c-footer-aoc">
       <p>
-        EWBMQ respectfully acknowledges the traditional owners of the country on which we work.
+        EWBMQ respectfully acknowledges the Traditional Owners of the Country on which we work.
       </p>
       <img src="~/assets/flag-aboriginal.svg" alt="Aboriginal Flag" height="24">
       <img src="~/assets/flag-torres-strait-islander.svg" alt="Torres Strait Islander Flag" height="24">
     </div>
     <div class="c-footer-copyright">
-      <p>
-        © {{ copyrightDate }} EWBMQ
-      </p>
+      © {{ copyrightDate }} EWBMQ
     </div>
+    <ul class="c-footer-links">
+      <li class="c-footer-links-item">
+        <a href="https://github.com/natlec/ewbmq.org/" rel="noreferrer noopener">
+          Source Code
+        </a>
+      </li>
+      <li class="c-footer-links-divider">
+        ·
+      </li>
+      <li class="c-footer-links-item">
+        <a href="https://ewb.org.au" rel="noreferrer noopener">
+          EWB
+        </a>
+      </li>
+      <li class="c-footer-links-divider">
+        ·
+      </li>
+      <li class="c-footer-links-item">
+        <a href="https://mq.edu.au" rel="noreferrer noopener">
+          Macquarie Uni
+        </a>
+      </li>
+    </ul>
   </footer>
 </template>
 
@@ -43,6 +64,29 @@ export default {
   margin: 16px 8px 32px;
 }
 .c-footer-copyright {
+  font-size: .889em;
   font-weight: 600;
+  margin: 24px 0 8px;
+}
+.c-footer-links {
+  font-size: .889em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.c-footer-links-item {
+  display: inline-block;
+  margin: 8px;
+}
+.c-footer-links-item a {
+  color: var(--color-dark-gray);
+}
+.c-footer-links-item a:focus {
+  color: var(--color-black);
+}
+.c-footer-links-divider {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 </style>

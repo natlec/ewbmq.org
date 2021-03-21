@@ -63,11 +63,4 @@ a:focus {
   color: var(--color-background);
   background: var(--color-green);
 }
-
-.svg-icon {
-  display: inline-block;
-  fill: currentColor;
-  margin: 0 0 3px;
-  vertical-align: middle;
-}
 </style>

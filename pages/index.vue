@@ -192,10 +192,6 @@
                   <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="48">
                   <span class="c-socials-item-label">
                     Instagram
-                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
-                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
-                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
-                    </svg>
                   </span>
                 </a>
               </li>
@@ -204,10 +200,6 @@
                   <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="48">
                   <span class="c-socials-item-label">
                     Facebook
-                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
-                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
-                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
-                    </svg>
                   </span>
                 </a>
               </li>
@@ -216,10 +208,6 @@
                   <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="48">
                   <span class="c-socials-item-label">
                     Discord
-                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
-                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
-                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
-                    </svg>
                   </span>
                 </a>
               </li>
@@ -228,10 +216,6 @@
                   <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="48">
                   <span class="c-socials-item-label">
                     Twitter
-                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
-                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
-                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
-                    </svg>
                   </span>
                 </a>
               </li>
@@ -240,10 +224,6 @@
                   <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="48">
                   <span class="c-socials-item-label">
                     Email
-                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
-                      <path d="m12.5714 11v1.57h-9.14145v-9.14146h1.57v-2.28572h-2.2857c-.7143 0-1.57143.85718-1.57143 1.57143v10.57145c0 .7143.86309 1.5714 1.57143 1.5714h10.57145c.7084 0 1.5715-.8571 1.5715-1.5714v-2.2857z" />
-                      <path d="m14.8572 1.14283v7.35717h-2.2858v-3.5l-5.0714 5-1.5-1.5 5-5.07146h-3.5v-2.28572z" />
-                    </svg>
                   </span>
                 </a>
               </li>
@@ -274,54 +254,54 @@
             <ul class="c-list">
               <li class="c-list-item">
                 <a href="https://www.notion.so/Constitution-f9de2fec67544fce99c8dcb78f80f773" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">📜</span> Constitution
+                  <span class="c-list-item-icon">📜</span>Constitution
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/a2f39258457d4bdca30d594912d39c28" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">📝</span> Forms
+                  <span class="c-list-item-icon">📝</span>Forms
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/58f48d6e6afa4b85bb54035aa8f3c5f7" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">🔨</span> Tasks
+                  <span class="c-list-item-icon">🔨</span>Tasks
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/b8fac119248948b08fd011f0712a7829" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">📅</span> Event Calendar
+                  <span class="c-list-item-icon">📅</span>Event Calendar
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/2282ba7f33d743c0856a72f72cce3df1" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">📐</span> Event Plans
+                  <span class="c-list-item-icon">📐</span>Event Plans
                 </a>
               </li>
             </ul>
             <ul class="c-list">
               <li class="c-list-item">
                 <a href="https://www.notion.so/General-Committee-12bd15c9cc5a47d2b9d88611108c2d80" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">📢</span> General Committee
+                  <span class="c-list-item-icon">📢</span>General Committee
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/e79473a92ddf4afd8b2c2b805b0c7bdd" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">✏️</span> Meeting Notes
+                  <span class="c-list-item-icon">✏️</span>Meeting Notes
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/e8378e6daa954f5fb68a6f75fbf09313" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">🤝</span> Partner Program
+                  <span class="c-list-item-icon">🤝</span>Partner Program
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/acd62c7881c14d7ab55c2f5941562a69" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">📎</span> Resources
+                  <span class="c-list-item-icon">📎</span>Resources
                 </a>
               </li>
               <li class="c-list-item">
                 <a href="https://www.notion.so/Finances-275edb03d1694648bae8d3f94d673a75" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">💰</span> Finances
+                  <span class="c-list-item-icon">💰</span>Finances
                 </a>
               </li>
             </ul>
@@ -543,7 +523,7 @@ hr {
   text-align: center;
   text-decoration: none;
   width: 24px;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 .c-info {
   border-radius: 16px;
