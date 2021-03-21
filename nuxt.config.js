@@ -55,7 +55,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content',
     '@nuxtjs/redirect-module',
     '@nuxtjs/robots'
   ],
@@ -77,9 +76,6 @@ export default {
   robots: {
     UserAgent: '*'
   },
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
