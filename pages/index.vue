@@ -317,8 +317,8 @@
 export default {
   components: {
     Header: () => process.client ? import('~/lazy-components/Header.vue') : null,
-    Form: () => process.client ? import('~/lazy-components/Form.vue') : null,
-    VideoPlayer: () => process.client ? import('~/lazy-components/VideoPlayer.vue') : null
+    Form: () => process.client ? import(/* webpackPrefetch: true */ '~/lazy-components/Form.vue') : null,
+    VideoPlayer: () => process.client ? import(/* webpackPrefetch: true */ '~/lazy-components/VideoPlayer.vue') : null
   }
 }
 </script>

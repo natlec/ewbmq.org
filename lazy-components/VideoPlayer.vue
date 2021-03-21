@@ -1,6 +1,6 @@
 <template>
   <div class="c-video">
-    <vue-plyr>
+    <vue-plyr :options="options">
       <div class="plyr__video-embed" tabindex="-1">
         <!-- eslint-disable-next-line vue/html-self-closing -->
         <iframe
@@ -16,8 +16,19 @@
 </template>
 
 <script>
+import VuePlyr from 'vue-plyr'
+
 export default {
-  name: 'VideoPlayer'
+  components: {
+    VuePlyr
+  },
+  data () {
+    return {
+      options: {
+        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen']
+      }
+    }
+  }
 }
 </script>
 
