@@ -12,7 +12,7 @@
     </div>
     <ul class="c-footer-links">
       <li class="c-footer-links-item">
-        <a href="https://github.com/natlec/ewbmq.org/" rel="noreferrer noopener">
+        <a href="https://github.com/natlec/ewbmq.org/" target="_blank" rel="noreferrer noopener">
           Source Code
         </a>
       </li>
@@ -20,7 +20,7 @@
         ·
       </li>
       <li class="c-footer-links-item">
-        <a href="https://ewb.org.au" rel="noreferrer noopener">
+        <a href="https://ewb.org.au" target="_blank" rel="noreferrer noopener">
           EWB
         </a>
       </li>
@@ -28,7 +28,7 @@
         ·
       </li>
       <li class="c-footer-links-item">
-        <a href="https://mq.edu.au" rel="noreferrer noopener">
+        <a href="https://mq.edu.au" target="_blank" rel="noreferrer noopener">
           Macquarie Uni
         </a>
       </li>
