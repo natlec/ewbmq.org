@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable-next-line vue/html-self-closing -->
   <div
     v-if="isFormLoaded"
     class="c-form"
