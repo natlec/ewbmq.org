@@ -152,6 +152,23 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-raphael.png" alt="Headshot for Raphael Paras">
+                <a class="c-bubbles-item-overlay" href="mailto:raphael.paras@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Raphael Paras via email">
+                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
+                  <span>Contact</span>
+                </a>
+              </div>
+              <div class="c-bubbles-item-byline">
+                <strong class="c-bubbles-item-byline-title">
+                  Raphael Paras
+                </strong>
+                <span class="c-bubbles-item-byline-subtitle">
+                  Events Director
+                </span>
+              </div>
+            </li>
+            <li class="c-bubbles-item">
+              <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-jordan.png" alt="Headshot for Jordan Cairns">
                 <a class="c-bubbles-item-overlay" href="mailto:jordan.cairns@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Jordan Cairns via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
