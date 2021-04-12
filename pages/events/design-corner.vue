@@ -11,7 +11,7 @@
       <section class="c-section c-section--first c-section--thin">
         <!-- TODO: Add dates section -->
         <p>
-          Fill out this form if you would like to participate in the Design Corner for 2021. Keep an eye out for more details on our Facebook page.
+          Fill out this form if you would like to participate in the Design Corner for 2021. Keep an eye out for more details on our <a href="https://facebook.com/ewbmq" target="_blank" rel="noreferrer noopener" alt="Visit the EWBMQ Facebook page">Facebook page</a>.
         </p>
         <div class="c-info">
           <strong>Note:</strong> Attendance is mandatory for all 3 days. <a href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Let us know via email">Let us know</a> if you are unable to attend any of the 3 days.
