@@ -25,9 +25,9 @@
       </section>
 
       <section class="c-footerLink">
-        <a href="/">
-          <img src="~/assets/ewbmq-logo-back.svg" alt="EWBMQ homepage" height="50">
-        </a>
+        <NuxtLink to="/" class="c-footerLink-button">
+          <span class="c-footerLink-label">Go to EWBMQ homepage</span>
+        </NuxtLink>
       </section>
     </div>
     <Footer />
@@ -84,6 +84,26 @@ export default {
   height: 150px;
   background: var(--color-light-gray);
   border-top: 2px solid rgba(24, 24, 24, 0.025);
+}
+.c-footerLink-label {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.c-footerLink-button {
+  display: block;
+  background: no-repeat center url('~/assets/ewbmq-logo-back.svg');
+  width: 200px;
+  height: 50px;
+}
+.c-footerLink-button:focus,
+.c-footerLink-button:active {
+  box-shadow: none;
+  background: no-repeat center url('~/assets/ewbmq-logo-back-focus.svg');
 }
 
 @media (max-width: 1024px) {
