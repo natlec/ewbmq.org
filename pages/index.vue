@@ -6,7 +6,7 @@
         <Header />
       </client-only>
 
-      <section class="c-section c-section--first">
+      <section class="c-section c-section--thinTopMargin">
         <client-only>
           <VideoPlayer />
         </client-only>

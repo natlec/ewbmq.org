@@ -79,8 +79,11 @@ hr {
 .c-section--thin {
   margin: 15vh 25vw;
 }
-.c-section--first {
+.c-section--thinTopMargin {
   margin-top: 64px;
+}
+.c-section--thinBottomMargin {
+  margin-bottom: 64px;
 }
 .c-section-double {
   display: flex;
