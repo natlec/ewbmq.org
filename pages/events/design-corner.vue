@@ -38,6 +38,17 @@
 export default {
   components: {
     Form: () => process.client ? import(/* webpackPrefetch: true */ '~/lazy-components/Form.vue') : null
+  },
+  head: {
+    title: 'Event Alert: Design Corner 2021 — EWBMQ',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Registration form for the EWB Design Corner 2021 hosted by Macquarie University, UNSW, UTS, USYD and WSU.'
+      }
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>
