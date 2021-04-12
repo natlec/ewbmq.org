@@ -11,6 +11,13 @@ import '~/assets/jqueryShim.js'
 
 export default {
   name: 'Form',
+  props: {
+    formId: {
+      name: 'form-id',
+      type: String,
+      default: 'e8ab8e7f-6fbc-47aa-a6ee-e37867427d95'
+    }
+  },
   data () {
     return {
       isFormLoaded: false
@@ -23,7 +30,7 @@ export default {
     initHubSpotForm () {
       window.hbspt.forms.create({
         portalId: '9223100',
-        formId: 'e8ab8e7f-6fbc-47aa-a6ee-e37867427d95',
+        formId: this.formId,
         target: '.c-form',
         onFormReady: form => this.initHubSpotFormStyle(form)
       })
@@ -72,6 +79,7 @@ export default {
         }
         .hbspt-form .hs-input[type=text],
         .hbspt-form .hs-input[type=email],
+        .hbspt-form .hs-input[type=tel],
         .hbspt-form select.hs-input {
           appearance: none !important;
           padding: 8px !important;
@@ -96,6 +104,7 @@ export default {
         }
         .hbspt-form .hs-input[type=text]:focus,
         .hbspt-form .hs-input[type=email]:focus,
+        .hbspt-form .hs-input[type=tel]:focus,
         .hbspt-form select.hs-input:focus {
           outline: none !important;
           border-color: #181818 !important;

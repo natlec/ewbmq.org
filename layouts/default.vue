@@ -13,6 +13,16 @@
   --color-yellow: #FFCC00;
   --color-background: #ffffff;
 }
+
+::-moz-selection {
+  color: var(--color-background);
+  background: var(--color-green);
+}
+::selection {
+  color: var(--color-background);
+  background: var(--color-green);
+}
+
 body {
   margin: 0;
   background: var(--color-background);
@@ -54,13 +64,55 @@ a:focus {
   box-shadow: 0 -2px var(--color-yellow),
               0 4px var(--color-black);
 }
-
-::-moz-selection {
-  color: var(--color-background);
-  background: var(--color-green);
+hr {
+  border: 1px solid var(--color-light-gray);
 }
-::selection {
-  color: var(--color-background);
-  background: var(--color-green);
+
+.content {
+  position: relative;
+  background: no-repeat top / 100vw url('~/assets/ewb-triangle-pattern-light.png');
+  z-index: 2;
+}
+.c-section {
+  margin: 15vh 15vw;
+}
+.c-section--thin {
+  margin: 15vh 25vw;
+}
+.c-section--first {
+  margin-top: 64px;
+}
+.c-section-double {
+  display: flex;
+  flex-direction: row;
+}
+.c-section-double-left {
+  flex: 1;
+  margin-right: 32px;
+}
+.c-section-double-right {
+  flex: 1;
+  margin-left: 32px;
+}
+.c-info {
+  border-radius: 16px;
+  border: 2px solid var(--color-light-gray);
+  padding: 32px;
+  margin: 32px 0 0;
+}
+@media (max-width: 1024px) {
+  .c-section {
+    margin: 32px;
+  }
+  .c-section--first {
+    margin-top: 32px;
+  }
+  .c-section-double {
+    flex-direction: column;
+  }
+  .c-section-double-left,
+  .c-section-double-right {
+    margin: 0;
+  }
 }
 </style>
