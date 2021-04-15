@@ -169,18 +169,18 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-jordan.png" alt="Headshot for Jordan Cairns">
-                <a class="c-bubbles-item-overlay" href="mailto:jordan.cairns@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Jordan Cairns via email">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-shiaw-shiuan.png" alt="Headshot for Shiaw Shiuan Lin">
+                <a class="c-bubbles-item-overlay" href="mailto:shiaw-shiuan.lin@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Shiaw Shiuan Lin via email">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   <span>Contact</span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
                 <strong class="c-bubbles-item-byline-title">
-                  Jordan Cairns
+                  Shiaw Shiuan Lin
                 </strong>
                 <span class="c-bubbles-item-byline-subtitle">
-                  School Outreach Coordinator
+                  Content Director
                 </span>
               </div>
             </li>
