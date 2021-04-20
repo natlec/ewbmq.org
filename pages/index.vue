@@ -95,7 +95,7 @@
                   Abdullah Abualsaud
                 </strong>
                 <span class="c-bubbles-item-byline-subtitle">
-                  VP of Partnerships
+                  VP of Partnerships / <br> School Outreach Coordinator
                 </span>
               </div>
             </li>
