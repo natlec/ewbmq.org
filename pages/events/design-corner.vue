@@ -109,8 +109,4 @@ export default {
   box-shadow: none;
   background: no-repeat center url('~/assets/ewbmq-logo-back-focus.svg');
 }
-
-@media (max-width: 1024px) {
-  /* TODO: Add mobile styling */
-}
 </style>
