@@ -20,7 +20,8 @@ export default {
       { hid: 'og:type', content: 'website' },
       { hid: 'og:title', name: 'og:title', content: 'EWBMQ — Engineers Without Borders Macquarie University' },
       { hid: 'og:description', name: 'og:description', content: 'We are EWBMQ, a newly-formed chapter of EWB at Macquarie University. We aim to bring awareness and create social value through humanitarian and sustainable engineering through a variety of events, including: School Outreach Programs, Hackathons, Design Summits and much more.' },
-      { hid: 'og:image', name: 'og:image', content: '/social.png' }
+      { hid: 'og:image', name: 'og:image', content: '/social.png' },
+      { hid: 'og:url', name: 'og:url', content: 'https://ewbmq.org' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/typeface-red-hat-display@1.1.13/index.css', integrity: 'sha256-ufSNTM2+CubHCwLVvF5pW782ilMbGqkDF1WsaV3Td0s=', crossorigin: 'anonymous' },

@@ -51,7 +51,8 @@ export default {
       { hid: 'og:type', content: 'event' },
       { hid: 'og:title', name: 'og:title', content: 'Event Alert: Design Corner 2021 — EWBMQ' },
       { hid: 'og:description', name: 'og:description', content: 'Registration form for the EWB Design Corner 2021 hosted by Macquarie University, UNSW, UTS, USYD and WSU.' },
-      { hid: 'og:image', name: 'og:image', content: '~/assets/events/design-corner/design-corner-social.png' }
+      { hid: 'og:image', name: 'og:image', content: '~/assets/events/design-corner/design-corner-social.png' },
+      { hid: 'og:url', name: 'og:url', content: 'https://ewbmq.org/events/design-corner/' }
     ]
   }
 }
