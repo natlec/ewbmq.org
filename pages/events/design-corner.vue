@@ -9,19 +9,12 @@
       </header>
 
       <section class="c-section c-section--thinTopMargin c-section--thinBottomMargin c-section--thin">
-        <!-- TODO: Add dates section -->
         <p>
-          Fill out this form if you would like to participate in the Design Corner for 2021. Keep an eye out for more details on the <a href="https://www.facebook.com/events/458227145428271/" target="_blank" rel="noreferrer noopener" alt="Visit the EWBMQ Facebook page">Facebook event page</a>.
+          <strong>Registrations for the Design Corner for 2021 are now closed.</strong> Keep an eye out for more details on the <a href="https://www.facebook.com/events/458227145428271/" target="_blank" rel="noreferrer noopener" alt="Visit the EWBMQ Facebook page">Facebook event page</a>.
         </p>
         <div class="c-info">
           <strong>Note:</strong> Attendance is mandatory for all 3 days in order to qualify. <a href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Let us know via email">Let us know</a> if you are unable to attend any of the 3 days.
         </div>
-      </section>
-
-      <section class="c-section c-section--thinTopMargin c-section--thin">
-        <client-only>
-          <Form form-id="75f9df84-cd82-4699-a74b-6c28b13f545a" />
-        </client-only>
       </section>
 
       <section class="c-footerLink">
