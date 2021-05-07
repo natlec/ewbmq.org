@@ -29,9 +29,6 @@
 
 <script>
 export default {
-  components: {
-    Form: () => process.client ? import('~/lazy-components/Form.vue') : null
-  },
   head: {
     title: 'Event Alert: Design Corner 2021 — EWBMQ',
     meta: [
