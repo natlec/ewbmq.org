@@ -85,6 +85,9 @@ hr {
 .c-section--thinBottomMargin {
   margin-bottom: 64px;
 }
+.c-section--center {
+  text-align: center;
+}
 .c-section-double {
   display: flex;
   flex-direction: row;
