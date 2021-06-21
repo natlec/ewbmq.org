@@ -37,6 +37,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: var(--color-dark-gray) var(--color-black);
 }
@@ -47,7 +48,6 @@ body {
   line-height: 1.5;
   font: 400 1.2em 'PT Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--color-dark-gray);
-  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
