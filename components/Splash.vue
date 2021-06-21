@@ -51,9 +51,9 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  outline: none;
 }
 .c-globe-canvas {
   width: 100vw !important;
+  outline: none;
 }
 </style>
