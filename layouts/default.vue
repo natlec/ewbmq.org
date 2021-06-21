@@ -23,6 +23,19 @@
   background: var(--color-green);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-gray);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-light-gray);
+}
+
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--color-dark-gray) var(--color-black);
