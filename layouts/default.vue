@@ -23,6 +23,11 @@
   background: var(--color-green);
 }
 
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-dark-gray) var(--color-black);
+}
+
 body {
   margin: 0;
   background: var(--color-background);

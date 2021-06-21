@@ -1,20 +1,21 @@
 <template>
   <div class="c-splash">
-    <img class="c-splash-globe" src="~/assets/ewb-globe.gif" alt="EWB Globe">
-    <img class="c-splash-letters" src="~/assets/ewbmq-globe-letters.gif" alt="Engineers Without Borders Macquarie University">
+    <div class="c-globe">
+      <canvas id="canvas3d" class="c-globe-canvas"></canvas>
+    </div>
     <div class="c-splash-skip">
       <a class="c-splash-skip-link" href="#content">
         Skip to content
       </a>
     </div>
+    <script src="/spline.runtime.min.js"></script>
   </div>
 </template>
 
 <style scoped>
 .c-splash {
   position: relative;
-  background: no-repeat top / 100vw url('~/assets/ewb-triangle-pattern-gray.png'),
-              no-repeat bottom / 100vw url('~/assets/ewb-triangle-pattern.png'),
+  background: no-repeat bottom / 100vw url('~/assets/ewb-triangle-pattern-gray.png'),
               var(--color-black);
   height: 125vh;
   padding-bottom: 25vh;
@@ -42,30 +43,17 @@
   text-decoration: none;
   color: var(--color-black);
 }
-.c-splash-globe {
+.c-globe {
   display: block;
   position: absolute;
-  transform: translateX(-50%) translateY(-50%);
-  top: 50vh;
-  left: 50%;
-  width: 25vw;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: auto;
+  overflow: hidden;
+  outline: none;
 }
-.c-splash-letters {
-  display: block;
-  position: absolute;
-  transform: translateX(-50%) translateY(-50%);
-  top: 50vh;
-  left: 50%;
-  width: 37.5vw;
-  height: auto;
-}
-@media (max-width: 1024px) {
-  .c-splash-globe {
-    width: 50vw;
-  }
-  .c-splash-letters {
-    width: 75vw;
-  }
+.c-globe-canvas {
+  width: 100vw !important;
 }
 </style>

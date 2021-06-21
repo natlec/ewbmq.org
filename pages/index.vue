@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Splash />
+    <Splash v-if="!isMobile()" />
     <div id="content" class="content">
       <client-only>
         <Header />
@@ -333,9 +333,15 @@
 <script>
 export default {
   components: {
+    Splash: () => process.client ? import('~/components/Splash.vue') : null,
     Header: () => process.client ? import('~/lazy-components/Header.vue') : null,
     Form: () => process.client ? import('~/lazy-components/Form.vue') : null,
     VideoPlayer: () => process.client ? import(/* webpackPrefetch: true */ '~/lazy-components/VideoPlayer.vue') : null
+  },
+  methods: {
+    isMobile () {
+      return window.innerWidth < 1024
+    }
   }
 }
 </script>
