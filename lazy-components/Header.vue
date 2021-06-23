@@ -56,7 +56,8 @@ export default {
   overflow: hidden;
   top: 0;
   height: 125px;
-  background: var(--color-background);
+  background: rgba(255, 255, 255, .85);
+  backdrop-filter: blur(32px);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, .05),
               0 4px 32px rgba(0, 0, 0, .05);
   z-index: 9;
