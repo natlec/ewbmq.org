@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import '~/assets/jqueryShim.js'
+import '~/static/jqueryShim.js'
 
 export default {
   name: 'Form',
