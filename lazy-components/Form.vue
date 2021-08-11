@@ -52,6 +52,7 @@ export default {
         }
         .hbspt-form form {
           margin: 0 4px 0 !important;
+          width: auto !important;
         }
         .hbspt-form .hs-form-field {
           margin: 0 0 32px !important;
