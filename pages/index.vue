@@ -51,15 +51,18 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-joseph.png" alt="Headshot for Joseph Malicdem">
-                <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Joseph Malicdem via email">
+                <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    joseph.malicdem@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
                 <strong class="c-bubbles-item-byline-title">
                   Joseph Malicdem
-                </strong>
+                </strong><br>
                 <span class="c-bubbles-item-byline-subtitle">
                   President
                 </span>
@@ -68,9 +71,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-bharosha.png" alt="Headshot for Bharosha Poudel">
-                <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bharosha Poudel via email">
+                <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    bharosha.poudel@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -85,9 +91,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-abdullah.png" alt="Headshot for Abdullah Abualsaud">
-                <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Abdullah Abualsaud via email">
+                <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    abdullah-abdulaziz-j.abuals@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -102,9 +111,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-bijoya.png" alt="Headshot for Bijoya Bakali">
-                <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Bijoya Bakali via email">
+                <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    bijoya.bakali@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -119,9 +131,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
-                <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Nathan Lecompte via email">
+                <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    nathan.lecompte@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -136,9 +151,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-shahariar.png" alt="Headshot for Md Shahariar Mollah">
-                <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Md Shahariar Mollah via email">
+                <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    md-shahariar.mollah@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -153,9 +171,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-raphael.png" alt="Headshot for Raphael Paras">
-                <a class="c-bubbles-item-overlay" href="mailto:raphael.paras@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Raphael Paras via email">
+                <a class="c-bubbles-item-overlay" href="mailto:raphael.paras@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    raphael.paras@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -170,9 +191,12 @@
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-shiaw-shiuan.png" alt="Headshot for Shiaw Shiuan Lin">
-                <a class="c-bubbles-item-overlay" href="mailto:shiaw-shiuan.lin@students.mq.edu.au" target="_blank" rel="noreferrer noopener" title="Contact Shiaw Shiuan Lin via email">
+                <a class="c-bubbles-item-overlay" href="mailto:shiaw-shiuan.lin@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  <span>Contact</span>
+                  Contact
+                  <span class="u-assistive-hidden">
+                    shiaw-shiuan.lin@students.mq.edu.au
+                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -198,47 +222,47 @@
               Interested in joining EWBMQ as a volunteer? Whether you've only just started uni or are well on your way to completing the final boss battle of academia, everyone is welcome!
             </p>
             <p>
-              We run a variety of social events, workshops and networking opportunities throughout the year available excusively to our members.
+              We run a variety of social events, workshops and networking opportunities throughout the year available exclusively to our members.
             </p>
             <p>
               Tune into our social & comms channels for further updates:
             </p>
             <ul class="c-socials">
               <li class="c-socials-item">
-                <a class="c-socials-item-link" href="https://www.instagram.com/ewbmacquarie" target="_blank" rel="noreferrer noopener" title="Instagram">
-                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram" width="48">
+                <a class="c-socials-item-link" href="https://www.instagram.com/ewbmacquarie" target="_blank" rel="noreferrer noopener">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-instagram.svg" alt="Instagram icon" width="48">
                   <span class="c-socials-item-label">
                     Instagram
                   </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a class="c-socials-item-link" href="https://www.facebook.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Facebook">
-                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook" width="48">
+                <a class="c-socials-item-link" href="https://www.facebook.com/ewbmq" target="_blank" rel="noreferrer noopener">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-facebook.svg" alt="Facebook icon" width="48">
                   <span class="c-socials-item-label">
                     Facebook
                   </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a class="c-socials-item-link" href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener" title="Discord">
-                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord" width="48">
+                <a class="c-socials-item-link" href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-discord.svg" alt="Discord icon" width="48">
                   <span class="c-socials-item-label">
                     Discord
                   </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a class="c-socials-item-link" href="https://www.twitter.com/ewbmq" target="_blank" rel="noreferrer noopener" title="Twitter">
-                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter" width="48">
+                <a class="c-socials-item-link" href="https://www.twitter.com/ewbmq" target="_blank" rel="noreferrer noopener">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-twitter.svg" alt="Twitter icon" width="48">
                   <span class="c-socials-item-label">
                     Twitter
                   </span>
                 </a>
               </li>
               <li class="c-socials-item">
-                <a class="c-socials-item-link" href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Email">
-                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email" width="48">
+                <a class="c-socials-item-link" href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener">
+                  <img loading="lazy" class="c-socials-item-image" src="~/assets/icons/icon-email.svg" alt="Email icon" width="48">
                   <span class="c-socials-item-label">
                     Email
                   </span>
@@ -347,6 +371,16 @@ export default {
 </script>
 
 <style scoped>
+.u-assistive-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
 .c-highlight {
   font-style: italic;
   text-align: center;
