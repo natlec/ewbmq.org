@@ -59,7 +59,7 @@
               <div class="c-bubbles-item-byline">
                 <strong class="c-bubbles-item-byline-title">
                   Joseph Malicdem
-                </strong><br>
+                </strong>
                 <span class="c-bubbles-item-byline-subtitle">
                   President
                 </span>
