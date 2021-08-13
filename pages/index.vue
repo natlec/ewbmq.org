@@ -54,9 +54,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    joseph.malicdem@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -74,9 +71,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    bharosha.poudel@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -94,9 +88,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    abdullah-abdulaziz-j.abuals@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -114,9 +105,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    bijoya.bakali@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -134,9 +122,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    nathan.lecompte@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -174,9 +159,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:raphael.paras@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    raphael.paras@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -194,9 +176,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:shiaw-shiuan.lin@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    shiaw-shiuan.lin@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
