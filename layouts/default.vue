@@ -30,16 +30,16 @@
   background: var(--color-black);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-dark-gray);
+  background: var(--color-light-gray);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-light-gray);
+  background: var(--color-background);
 }
 
 html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: var(--color-dark-gray) var(--color-black);
+  scrollbar-color: var(--color-light-gray) var(--color-black);
 }
 
 body {
