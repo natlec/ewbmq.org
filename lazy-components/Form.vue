@@ -65,7 +65,8 @@ export default {
           color: #181818 !important;
           font: 700 1em 'Red Hat Display' !important;
         }
-        .hbspt-form .hs-form-radio span {
+        .hbspt-form .hs-form-radio span,
+        .hbspt-form .hs-field-desc {
           color: #404040 !important;
           font: 400 1.2em 'PT Serif' !important;
         }
