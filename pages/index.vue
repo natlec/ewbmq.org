@@ -310,8 +310,8 @@
                 </a>
               </li>
               <li class="c-list-item">
-                <a href="https://www.notion.so/e8378e6daa954f5fb68a6f75fbf09313" rel="noreferrer noopener">
-                  <span class="c-list-item-icon">🤝</span>Partner Program
+                <a href="https://www.notion.so/2b71d2520f0447ac83d1d1ff3ec9ef61" rel="noreferrer noopener">
+                  <span class="c-list-item-icon">⚖️</span>Alumni
                 </a>
               </li>
               <li class="c-list-item">
