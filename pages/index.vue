@@ -50,74 +50,6 @@
           <ul class="c-bubbles-list">
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-joseph.png" alt="Headshot for Joseph Malicdem">
-                <a class="c-bubbles-item-overlay" href="mailto:joseph.malicdem@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Joseph Malicdem
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  President
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-bharosha.png" alt="Headshot for Bharosha Poudel">
-                <a class="c-bubbles-item-overlay" href="mailto:bharosha.poudel@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Bharosha Poudel
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  VP of Operations
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-abdullah.png" alt="Headshot for Abdullah Abualsaud">
-                <a class="c-bubbles-item-overlay" href="mailto:abdullah-abdulaziz-j.abuals@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Abdullah Abualsaud
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  VP of Partnerships / <br> School Outreach Coordinator
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-bijoya.png" alt="Headshot for Bijoya Bakali">
-                <a class="c-bubbles-item-overlay" href="mailto:bijoya.bakali@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Bijoya Bakali
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Treasurer
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
                 <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
@@ -127,6 +59,40 @@
               <div class="c-bubbles-item-byline">
                 <strong class="c-bubbles-item-byline-title">
                   Nathan Lecompte
+                </strong>
+                <span class="c-bubbles-item-byline-subtitle">
+                  Co-President
+                </span>
+              </div>
+            </li>
+            <li class="c-bubbles-item">
+              <div class="c-bubbles-item-image-container">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-saidul.png" alt="Headshot for Saidul Kaboy">
+                <a class="c-bubbles-item-overlay" href="mailto:saidul-islam.kabboy@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
+                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
+                  Contact
+                </a>
+              </div>
+              <div class="c-bubbles-item-byline">
+                <strong class="c-bubbles-item-byline-title">
+                  Saidul Kaboy
+                </strong>
+                <span class="c-bubbles-item-byline-subtitle">
+                  Co-President
+                </span>
+              </div>
+            </li>
+            <li class="c-bubbles-item">
+              <div class="c-bubbles-item-image-container">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-krishna.png" alt="Headshot for Krishna Srivastava">
+                <a class="c-bubbles-item-overlay" href="mailto:krishna.srivastava@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
+                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
+                  Contact
+                </a>
+              </div>
+              <div class="c-bubbles-item-byline">
+                <strong class="c-bubbles-item-byline-title">
+                  Krishna Srivastava
                 </strong>
                 <span class="c-bubbles-item-byline-subtitle">
                   Secretary
@@ -139,9 +105,6 @@
                 <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
                   Contact
-                  <span class="u-assistive-hidden">
-                    md-shahariar.mollah@students.mq.edu.au
-                  </span>
                 </a>
               </div>
               <div class="c-bubbles-item-byline">
@@ -149,41 +112,7 @@
                   Md Shahariar Mollah
                 </strong>
                 <span class="c-bubbles-item-byline-subtitle">
-                  Marketing Director
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-raphael.png" alt="Headshot for Raphael Paras">
-                <a class="c-bubbles-item-overlay" href="mailto:raphael.paras@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Raphael Paras
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Events Director
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-shiaw-shiuan.png" alt="Headshot for Shiaw Shiuan Lin">
-                <a class="c-bubbles-item-overlay" href="mailto:shiaw-shiuan.lin@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Shiaw Shiuan Lin
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Content Director
+                  Treasurer
                 </span>
               </div>
             </li>
