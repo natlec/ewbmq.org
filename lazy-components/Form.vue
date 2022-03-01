@@ -68,7 +68,12 @@ export default {
         .hbspt-form .hs-form-radio span,
         .hbspt-form .hs-field-desc {
           color: #404040 !important;
-          font: 400 1.2em 'PT Serif' !important;
+          font: 400 1em 'PT Serif' !important;
+          margin: 0 0 20px !important;
+          padding: 0 !important;
+        }
+        .hbspt-form .hs-field-desc p {
+          margin: 10px 0 !important;
         }
         .hbspt-form .hs_error_rollup label {
           padding: 16px;
@@ -81,6 +86,7 @@ export default {
         }
         .hbspt-form .hs-input[type=text],
         .hbspt-form .hs-input[type=email],
+        .hbspt-form .hs-input[type=message],
         .hbspt-form .hs-input[type=tel],
         .hbspt-form select.hs-input {
           appearance: none !important;
@@ -95,6 +101,11 @@ export default {
                       0 4px 8px rgba(24, 24, 24, 0.05),
                       0 2px 4px rgba(24, 24, 24, 0.05);
         }
+        .hbspt-form .hs-input[type=message] {
+          height: 150px !important;
+          min-width: 100% !important;
+          max-width: 100% !important;
+        }
         .hbspt-form .hs-button {
           background: #181818 !important;
           font: 700 1.2em 'Red Hat Display' !important;
@@ -106,6 +117,7 @@ export default {
         }
         .hbspt-form .hs-input[type=text]:focus,
         .hbspt-form .hs-input[type=email]:focus,
+        .hbspt-form .hs-input[type=message]:focus,
         .hbspt-form .hs-input[type=tel]:focus,
         .hbspt-form select.hs-input:focus {
           outline: none !important;
