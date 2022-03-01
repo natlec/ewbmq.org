@@ -10,7 +10,7 @@
 
       <section class="c-section c-section--center c-section--thinTopMargin c-section--thinBottomMargin c-section--thin">
         <p>
-          <strong>Thanks for showing an interest in joining the EWBMQ general committee!</strong> You've automatically been added to the applications register, you'll be given an opportunity to chat with someone from our team in a follow-up email by scheduling a time/date. If you haven't already done so, feel free to keep in touch for other update via our other channels below:
+          <strong>Thanks for showing an interest in joining the EWBMQ general committee!</strong> You've automatically been added to the applications register, you'll be given an opportunity to chat with someone from our team in a follow-up email by scheduling a time/date. If you haven't already done so, feel free to keep in touch for general updates via our comms channels below:
         </p>
         <ul class="c-socials c-socials--center">
           <li class="c-socials-item">
