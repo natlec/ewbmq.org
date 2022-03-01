@@ -88,7 +88,8 @@ export default {
         .hbspt-form .hs-input[type=email],
         .hbspt-form .hs-input[type=message],
         .hbspt-form .hs-input[type=tel],
-        .hbspt-form select.hs-input {
+        .hbspt-form select.hs-input,
+        .hbspt-form textarea.hs-input {
           appearance: none !important;
           padding: 8px !important;
           color: #404040 !important;
@@ -101,7 +102,7 @@ export default {
                       0 4px 8px rgba(24, 24, 24, 0.05),
                       0 2px 4px rgba(24, 24, 24, 0.05);
         }
-        .hbspt-form .hs-input[type=message] {
+        .hbspt-form textarea.hs-input {
           height: 150px !important;
           min-width: 100% !important;
           max-width: 100% !important;
@@ -119,7 +120,8 @@ export default {
         .hbspt-form .hs-input[type=email]:focus,
         .hbspt-form .hs-input[type=message]:focus,
         .hbspt-form .hs-input[type=tel]:focus,
-        .hbspt-form select.hs-input:focus {
+        .hbspt-form select.hs-input:focus,
+        .hbspt-form textarea.hs-input:focus {
           outline: none !important;
           border-color: #181818 !important;
           box-shadow: 0 0 0 4px #FFCC00;
