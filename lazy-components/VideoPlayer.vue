@@ -6,6 +6,7 @@
   >
     <img
       v-if="!videoLoaded"
+      loading="lazy"
       class="c-video-thumb"
       src="~/assets/video-thumb.png"
       alt="Introduction to EWB Australia"
