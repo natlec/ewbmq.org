@@ -1,33 +1,49 @@
 <template>
-  <div class="c-video">
-    <vue-plyr :options="options">
-      <div class="plyr__video-embed">
-        <!-- eslint-disable-next-line vue/html-self-closing -->
-        <iframe
-          tabindex="-1"
-          loading="lazy"
-          title="Introduction video for Engineers Without Borders Australia"
-          src="https://www.youtube.com/embed/zNoDtJ5USHo?amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-          allowfullscreen
-          allowtransparency
-        ></iframe>
-      </div>
-    </vue-plyr>
+  <div
+    class="c-video"
+    tabindex="0"
+    @click="onVideoClick"
+  >
+    <img
+      v-if="!videoLoaded"
+      class="c-video-thumb"
+      src="~/assets/video-thumb.png"
+      alt="Introduction to EWB Australia"
+    >
+    <!-- eslint-disable-next-line vue/html-self-closing -->
+    <div id="plyr" ref="plyr" data-plyr-provider="youtube" data-plyr-embed-id="zNoDtJ5USHo"></div>
   </div>
 </template>
 
 <script>
-import VuePlyr from 'vue-plyr'
+import Plyr from 'plyr'
 
 export default {
-  components: {
-    VuePlyr
-  },
   data () {
     return {
-      options: {
+      player: {},
+      videoLoaded: false
+    }
+  },
+  methods: {
+    onVideoClick () {
+      this.player = new Plyr('#plyr', {
+        youtube: {
+          origin: window.location.host,
+          iv_load_policy: 3,
+          modestbranding: 1,
+          playsinline: 1,
+          showinfo: 0,
+          rel: 0,
+          enablejsapi: 1,
+          noCookie: true
+        },
         controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen']
-      }
+      })
+      this.player.on('ready', () => {
+        this.player.play()
+        this.videoLoaded = true
+      })
     }
   }
 }
@@ -37,13 +53,26 @@ export default {
 .c-video {
   display: block;
   position: relative;
-  border-radius: 16px;
+  border-radius: 24px;
   overflow: hidden;
   width: 100%;
   height: 0;
   padding-bottom: 56%;
-  box-shadow: 0 4px 8px rgba(24, 24, 24, 0.05), 0 2px 4px rgba(24, 24, 24, 0.05);
+  border: 4px solid transparent;
+  box-shadow: none;
+  cursor: pointer;
   z-index: 1;
+  transition: box-shadow .2s ease;
+}
+.c-video:focus,
+.c-video:focus-within {
+  border-color: var(--color-background);
+  box-shadow: 0 0 0 4px var(--color-black);
+}
+.c-video-thumb {
+  position: relative;
+  width: 100%;
+  border-radius: 24px;
 }
 .plyr {
   --plyr-video-background: var(--color-black);
