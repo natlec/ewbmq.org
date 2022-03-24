@@ -24,7 +24,7 @@
               Go to the <strong>#dc-welcome</strong> channel of the EWB NSW Discord and react to the welcome message with your team number. This will give you access to your team's dedicated text and voice channels.
             </li>
             <li>
-              Download the <a href="~/static/DC22 - Competitor Brief.pdf">Competitor Brief (1.89 MB)</a>, read through it thoroughly, and discuss it with your team. A copy of the Competitor Brief has also been sent to your emails and to your team's dedicated Discord channel.
+              Download the <a href="/DC22 - Competitor Brief.pdf">Competitor Brief (1.89 MB)</a>, read through it thoroughly, and discuss it with your team. A copy of the Competitor Brief has also been sent to your emails and to your team's dedicated Discord channel.
             </li>
           </ol>
         </div>
