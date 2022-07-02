@@ -10,11 +10,20 @@
 
       <section class="c-section c-section--thinTopMargin c-section--thinBottomMargin c-section--thin">
         <p>
-          <strong>Nominations for the EWBMQ Executive Team for 2022 are now closed.</strong> If you've already been nominated, keep an eye out for the voting ballot link that'll be sent to your email.
+          <strong>Looking to join a leadership position within a dynamic, fast-paced & passionate team of people?</strong> We think the EWBMQ Executive Team is just the place to be!
+        </p>
+        <p>
+          Fill out the form below to be nominated for the desired position(s), our formal SGM will be on the <strong>9th of July @ 2:30PM</strong> (this is a fantastic opportunity to pitch yourself for the nominated positions) and elections are open to all members (make sure to cast your own vote!). Please note that only verified members are eligible to vote and apply for nominations (a verified member is a member who has successfully submitted our <a href="/#members">membership form</a>).
         </p>
         <div class="c-info">
           <strong>Need help?</strong> Feel free to ping the friendly EWBMQ team by <a href="mailto:macquarie@ewb.org.au" target="_blank" rel="noreferrer noopener" title="Compose a new email to EWBMQ in your default email application">sending us an email</a>.
         </div>
+      </section>
+
+      <section class="c-section c-section--thinTopMargin c-section--thin">
+        <client-only>
+          <Form form-id="f2439406-b9df-4bda-8e4e-3e4255b2b6ba"/>
+        </client-only>
       </section>
 
       <section class="c-footerLink">

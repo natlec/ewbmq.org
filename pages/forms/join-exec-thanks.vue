@@ -10,7 +10,7 @@
 
       <section class="c-section c-section--center c-section--thinTopMargin c-section--thinBottomMargin c-section--thin">
         <p>
-          <strong>Thanks for showing an interest in joining the EWBMQ executive team!</strong> You've automatically been added to the nominations register, you'll be given an opportunity to pitch yourself during our official AGM on the <strong>11th of December @ 11:00AM</strong>; make sure to tune-into our other social & comms channels for further updates (we're particularly active on <a href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener">Discord</a>):
+          <strong>Thanks for showing an interest in joining the EWBMQ executive team!</strong> You've automatically been added to the nominations register, you'll be given an opportunity to pitch yourself during our official AGM on the <strong>9th of July @ 2:30PM</strong>; make sure to tune-into our other social & comms channels for further updates (we're particularly active on <a href="https://discord.gg/HGxBsCq" target="_blank" rel="noreferrer noopener">Discord</a>):
         </p>
         <ul class="c-socials c-socials--center">
           <li class="c-socials-item">
