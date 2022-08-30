@@ -50,6 +50,23 @@
           <ul class="c-bubbles-list">
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-henry.png" alt="Headshot for Henry Zeng">
+                <a class="c-bubbles-item-overlay" href="mailto:xian.zeng1@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
+                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
+                  Contact
+                </a>
+              </div>
+              <div class="c-bubbles-item-byline">
+                <strong class="c-bubbles-item-byline-title">
+                  Henry Zeng
+                </strong>
+                <span class="c-bubbles-item-byline-subtitle">
+                  President
+                </span>
+              </div>
+            </li>
+            <li class="c-bubbles-item">
+              <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
                 <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
