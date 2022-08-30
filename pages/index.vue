@@ -78,7 +78,7 @@
                   Nathan Lecompte
                 </strong>
                 <span class="c-bubbles-item-byline-subtitle">
-                  Co-President
+                  Special Assitant
                 </span>
               </div>
             </li>
@@ -95,41 +95,7 @@
                   Saidul Kaboy
                 </strong>
                 <span class="c-bubbles-item-byline-subtitle">
-                  Co-President
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-krishna.png" alt="Headshot for Krishna Srivastava">
-                <a class="c-bubbles-item-overlay" href="mailto:krishna.srivastava@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Krishna Srivastava
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Secretary
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-shahariar.png" alt="Headshot for Md Shahariar Mollah">
-                <a class="c-bubbles-item-overlay" href="mailto:md-shahariar.mollah@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Md Shahariar Mollah
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Treasurer
+                  Special Assitant
                 </span>
               </div>
             </li>
