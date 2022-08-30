@@ -10,6 +10,7 @@
       <a class="c-nav-item" href="#members">Members</a>
       <img class="c-nav-logo" src="~/assets/ewbmq-logo.svg" alt="EWBMQ" height="50">
       <a class="c-nav-item" href="#ops">Operations</a>
+      <a class="c-nav-item" href="https://ewbmq.org/forms/join-exec-team/" target="_blank" rel="noopener noreferrer">execForm</a>
       <a class="c-nav-item" href="https://ewb.org.au" target="_blank" rel="noopener noreferrer">
         EWB<svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" fill="#181818" height="16" width="16">
           <title>External link</title>
