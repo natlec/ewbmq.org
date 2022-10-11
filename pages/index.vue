@@ -67,6 +67,40 @@
             </li>
             <li class="c-bubbles-item">
               <div class="c-bubbles-item-image-container">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-xutai-zeng.png" alt="Headshot for Xutai Zeng">
+                <a class="c-bubbles-item-overlay" href="mailto:xu.zeng@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
+                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
+                  Contact
+                </a>
+              </div>
+              <div class="c-bubbles-item-byline">
+                <strong class="c-bubbles-item-byline-title">
+                  XuTai Zeng
+                </strong>
+                <span class="c-bubbles-item-byline-subtitle">
+                  Secretary
+                </span>
+              </div>
+            </li>
+            <li class="c-bubbles-item">
+              <div class="c-bubbles-item-image-container">
+                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-sherly.png" alt="Headshot for Nurshalynn Mohd Noh Alam Shah">
+                <a class="c-bubbles-item-overlay" href="mailto:nurshalynn.mohdnohalamshah@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
+                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
+                  Contact
+                </a>
+              </div>
+              <div class="c-bubbles-item-byline">
+                <strong class="c-bubbles-item-byline-title">
+                  Nurshalynn Mohd Noh Alam Shah
+                </strong>
+                <span class="c-bubbles-item-byline-subtitle">
+                  Event Director
+                </span>
+              </div>
+            </li>
+            <li class="c-bubbles-item">
+              <div class="c-bubbles-item-image-container">
                 <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
                 <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
                   <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
