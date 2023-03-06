@@ -99,40 +99,6 @@
                 </span>
               </div>
             </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-nathan.png" alt="Headshot for Nathan Lecompte">
-                <a class="c-bubbles-item-overlay" href="mailto:nathan.lecompte@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Nathan Lecompte
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Special Assitant
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-saidul.png" alt="Headshot for Saidul Kaboy">
-                <a class="c-bubbles-item-overlay" href="mailto:saidul-islam.kabboy@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Saidul Kaboy
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Special Assitant
-                </span>
-              </div>
-            </li>
           </ul>
         </div>
       </section>
