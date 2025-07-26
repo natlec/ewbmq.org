@@ -46,60 +46,10 @@
           </div>
         </div>
 
-        <div class="c-bubbles">
-          <ul class="c-bubbles-list">
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-henry.png" alt="Headshot for Henry Zeng">
-                <a class="c-bubbles-item-overlay" href="mailto:xian.zeng1@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Henry Zeng
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  President
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-xutai-zeng.png" alt="Headshot for Xutai Zeng">
-                <a class="c-bubbles-item-overlay" href="mailto:xu.zeng@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  XuTai Zeng
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Secretary
-                </span>
-              </div>
-            </li>
-            <li class="c-bubbles-item">
-              <div class="c-bubbles-item-image-container">
-                <img loading="lazy" class="c-bubbles-item-image" src="~/assets/headshots/headshot-sherly.png" alt="Headshot for Nurshalynn Mohd Noh Alam Shah">
-                <a class="c-bubbles-item-overlay" href="mailto:nurshalynn.mohdnohalamshah@students.mq.edu.au" target="_blank" rel="noreferrer noopener">
-                  <img src="~/assets/icons/icon-email-light.svg" alt="Email" width="48">
-                  Contact
-                </a>
-              </div>
-              <div class="c-bubbles-item-byline">
-                <strong class="c-bubbles-item-byline-title">
-                  Nurshalynn Mohd Noh Alam Shah
-                </strong>
-                <span class="c-bubbles-item-byline-subtitle">
-                  Event Director
-                </span>
-              </div>
-            </li>
-          </ul>
+        <div class="c-section">
+          <div class="c-info c-info--warning">
+            <strong>The EWBMQ chapter is currently INACTIVE</strong>, please reach out to the <a href="mailto:nsw@ewb.org.au">EWB NSW Regional chapter</a> if you're a highly-motivated Macquarie University student keen on restarting local operations.
+          </div>
         </div>
       </section>
 
@@ -446,6 +396,13 @@ export default {
   text-decoration: none;
   width: 24px;
   margin-right: 16px;
+}
+.c-info--warning {
+  border: 2px solid var(--color-yellow);
+  background: #ffcc0029;
+  color: var(--color-black);
+  text-align: center;
+  line-height: 1.5;
 }
 @media (max-width: 1024px) {
   .c-highlight {
